@@ -1,0 +1,25 @@
+{
+  "name": "imports-mre-client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-monninger/imports-mre-client.git"
+  },
+  "author": "Liam Monninger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l-monninger/imports-mre-client/issues"
+  },
+  "homepage": "https://github.com/l-monninger/imports-mre-client#readme",
+  "dependencies": {
+    "imports-mre-dummy-package": "github:l-monninger/imports-mre-dummy-package"
+  }
+}
